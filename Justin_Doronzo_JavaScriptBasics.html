@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>JavaScript Basics</title>
+      <style type="text/css">
+      	*{
+          margin: 0px;
+          padding: 0px;
+         }
+         #wrapper {
+         	width: 970px;
+         	background-color: #283593;
+         	padding: 5px;
+         	margin: 0 auto;
+         }
+         #header {
+         	min-height: 30px;
+         	background-color: #d32f2f;
+         	margin: 10px;
+         	padding-top: 20px;
+         	padding-left: 20px;
+         	padding-bottom: 20px;
+         	border-radius: 10px;
+         }
+         #content {
+         	margin: 20px 5px 20px 10px;
+         	padding: 15px;
+         	min-height: 40px;
+         	width: 693px;
+         	background-color: #000033;
+         	border-radius: 15px;
+         	display: inline-block;
+         	vertical-align: top;
+         }
+         .titletext {
+         	font-size: 25pt;
+         	color: white;
+         	font-weight: bold;
+         }
+         .contenthead {
+         	font-size: 15pt;
+         	color: white;
+         	font-weight: bold;
+         }
+         .contenttext{
+         	color: white;
+         }
+         #nav-bar {
+         	margin: 20px 10px;
+         	padding: 15px;
+         	min-height: 40px;
+         	background-color: #0097a7;
+         	border-radius: 15px;
+         	display: inline-block;
+         }
+         #link-bar {
+         	margin: 5px 10px;
+         	padding: 15px;
+         	min-height: 10px;
+         	background-color: #999999;
+         	border-radius: 15px;
+         }
+         .ul-text {
+         	color: #80deea;
+         }
+         a {
+         	color: #80deea;
+         }
+         ul {
+         	padding-left: 20px;
+         }
+         article {
+         	color: #6666cc;
+         	display: inline;
+         }
+         p {
+         	display: inline;
+         }
+         li {
+         	color: white;
+         }
+      
+
+
+      </style>
+   </head>
+   <body>
+   	<div id="wrapper">
+   		<div id="header">
+   			<p class="titletext">JavaScript Basics</p>
+   		</div>
+   		<div id="nav-bar">
+   		<a href="#">Home</a>
+   		<ul class="ul-text">
+   			<li><a href="#">JavaScript Overview</a></li>
+   			<ul class="ul-text">
+   				<li><a href="#">Variable Declaration</a></li>
+   				<li><a href="#">Variable Assignment</a></li>
+   				<li><a href="#">Data Type</a></li>
+   				<li><a href="#">Conditionals</a></li>
+   				<li><a href="#">Loops</a></li>
+   				<li><a href="#">Function</a></li>
+   			</ul>
+   			<li><a href="#">Projects</a></li>
+   			<li><a href="#">Assignments</a></li>
+   			<li><a href="#">Quiz</a></li>
+   		</ul>
+   		</div>
+   		<div id="content">
+   			<p class="contenthead">JavaScript Basics</p><br><br>
+   			<p class="contenttext">JavaScript is a cross-platform, object-oriented scripting language. JavaScript is extremely popular for a variety of reasons. It is a small and lightweight language allowing maximum flexibility for developers to take it in a bunch of different directions. JavaScript lives inside a host environment (a web browser or Node server), it can be connected to the objects of these environments to provide programmatic control over them.</p><br><br>
+   			<ul class="ul-text">
+   				<li><a href="#">Variable Declaration</a><p class="contenttext"> JavaScript variables are containers for storing data values - imagine a cup you fill with coffee, the cup holds the coffee, a variable holds a value. All JavaScript variables must be identified with unique names. These unique names are called identifiers. <article>var x;</article></p></li><br>
+   				<li><a href="#">Variable Assignment</a><p class="contenttext"> Assignment operators assign values to JavaScript variables - our cup can now have coffee poured in it, giving our variable a value to hold. The = assignment operator assigns a value to a variable. <article>var x = 10</article></p></li><br>
+   				<li><a href="#">Data Types</a><p class="contenttext"> Data types are an important concept; to be able to operate on variables you need to know the data type. There are six data types that are JavaScript primitive: Boolean - <article>true</article> or <article>false;</article> null - <article>null</article> aka nothing; Number - <article>42</article> or <article>3.14159;</article> String - <article>"Coding Dojo Rocks!;"</article> Array - <article>[1, 'Coding', 2, 'Dojo'];</article> and Object - <article>{first_name: 'Jane', last_name: 'Doe'}</article></p></li><br>
+   				<li><a href="#">Conditionals</a><p class="contenttext"> When you write code, you want to perform different actions for different decisions - hitting different code blocks based on values or conditions that have been met. You can use conditional statements in your code to accomplish this. There are the following conditional statements: <article>if</article> a specified condition is true, do this code in our code block; <article>else if</article> to specify a new condition to test, if the first condition is false; <article>else</article> we execute this block of code;</p></li><br>
+   				<li><a href="#">Loops</a><p class="contenttext"> There are many different kinds of loops in every programming language, but they essentially do the same thing: they will repeat an action some number of times. Imagine you have to run a mile, well you run around the track four times and then you stop. That's a loop!</p></li><br>
+   				<li><a href="#">Function</a><p class="contenttext"> Functions are an encapsulation of a code block. When we call our function this will run that code block. Think of it as a list of instructions. As an example imagine we are putting together a desk from Ikea, we open up the instruction manual and get started, first we screw the legs to the table top; next we place the table the right way up. Done! We finished our instructions. Sadly there are a ton more tables to do so lets call our function over and over and over again.</p></li><br>
+   			</ul>
+   		</div>
+   		<div id="link-bar">
+   			<p class="contenttext">For more useful information check out this url: <a href="#">JavaScript!</a></p>
+   		</div>
+   	</div>
+
+
+
+
+   </body>
+</html>
